@@ -123,7 +123,8 @@ public class DartClientCodegen extends DefaultCodegen implements CodegenConfig {
                         "bool",
                         "int",
                         "num",
-                        "double")
+                        "double",
+                        "Object")
         );
         instantiationTypes.put("array", "List");
         instantiationTypes.put("map", "Map");
